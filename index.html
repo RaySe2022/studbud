@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> StudBud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <!---NAVIGATION BAR-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Organise</a></li>
+                    <li><a href="">Plan</a></li>
+                    <li><a href="">Study</a></li>
+                    <li><a href="">Sign in </a></li>
+                </ul> 
+            </div>
+        </nav> 
+
+
+<!----ORGANISE----->
+    <div class="text-box">
+        <h1>Organise</h1>
+        <p>Add and edit tasks that have to be completed. 
+        <br> Proceed to Plan your study session for today. </p>
+        <div class="filter"> 
+            <div class="classes">
+    
+                <ul> 
+                <p> Show:</p>
+                <li id="firstsubject">Design Computing <i class="fa-solid fa-square-check"></i> </li>
+                <li id="secondsubject">UX Studio <i class="fa-solid fa-square-check"></i> </li> 
+                <li id="thirdsubject">Digital Marketing<i class="fa-solid fa-square-check"></i> </li>
+                </ul>
+    
+            </div>
+        </div>
+    </div> 
+    
+
+<!---PLAN-->
+
+    <div class="plan">
+        <a href="" class="plan-btn"> Plan ></a> 
+    </div> 
+
+<!----Task user input function-->
+
+    <div id = "taskinput">
+        <!----ADDTASKS FUNCTION-->
+        <div id ="addtasks">
+        <button id="add-btn" type="button">Add<i class="fa-solid fa-plus"></i></button>
+        </div> 
+        <!---Container for all the info needed for tasks-->
+        <div id ="userinputmenu">
+            <i id="close" class="fa-solid fa-xmark"></i>
+
+            <div id = "newtask">
+                New task
+            </div>
+            
+            <div id ="taskname">
+                Task name: 
+                <input type="text" value="agabagah">
+            </div>
+            <div id ="date">
+                Due date: <input type="date" name="datePicker"/>
+            </div>
+            <div id ="duration">
+                Duration: <input type="time" name="duration"/>
+            </div>
+            <div id ="priority">
+                Priority: 
+                <select name ="priority" id="pri-select">
+                    <option value="">Select priority</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+
+                </select>
+            </div>
+            <div id="complete-btn">
+            <button onclick="newtask()" id="submit-btn">Complete</button>
+            </div>
+
+        </div>
+
+    
+
+    </div>
+
+
+
+
+
+<!--------TIMELINE TODO LIST----------->
+        <div class="timeline">
+        </div>
+
+        <!--MUSIC PLAYER-->
+
+  <div class="mp">
+    
+    <!--- right part --->
+      <div class="details">
+      <!--- song title---> 
+      <div class="song_detail">
+          <p style= "font-family:arial"id="title">title.mp3</p>
+      </div>
+
+     <!--- navigation of music player  --->
+          <div class="middle">
+            <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+            <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+        </div>
+
+      <!--- song duration part --->
+       <div class="duration">
+          <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+       </div>
+          
+     </div>
+     <script src="main.js"></script>
+
+
+
+    </div>
+
+    
+
+</body>
+
+
+
+</html>
