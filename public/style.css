@@ -373,6 +373,92 @@ visibility:hidden;
   color: #009245;
 }
 
+/*----------------------------------------PLAN-------------------------*/
+
+/*-----------------KANBAN-------------------------------------*/ 
+#kanban-container{
+  position:absolute; 
+  min-height: 60%;
+  min-width: 85%;
+  bottom:0px;
+  padding: 0%;
+  margin-left:7.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#hpTasks{
+  background-color: #282932;
+  border-radius: 20px;
+  height:50vh;
+  width:30%; 
+  
+}
+#todayTasks{
+  background-color: #282932;
+  border-radius: 20px;
+  height:50vh;
+  width:30%; 
+ 
+
+}
+#divideTasks{
+  background-color: #282932;
+  border-radius: 20px;
+  height:50vh;
+  width:30%; 
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: flex-start;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: inline-block;
+}
+#hpTasks >.circle{
+  background-color: #dd142f;
+  height: 10px; 
+  width: 10px; 
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7%;
+  margin-bottom:2px;
+}
+#todayTasks >.circle{
+  background-color: #d1df0b;
+  height: 10px; 
+  width: 10px; 
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7%;
+  margin-bottom:2px;
+}
+#divideTasks >.circle{
+  background-color: #2b85ff;
+  height: 10px; 
+  width: 10px; 
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 7%;
+  margin-bottom:2px;
+}
+.line{ 
+  background-color: #737375;
+  width: 90%;
+  height:1px;
+  margin-left:5%;
+  margin-top:5px;
+  margin-bottom:10px; 
+}
+
+
+
+
 /*--------------------------------------------MUSIC PLAYER---------------------------------------------------*/ 
 
 .mp{

@@ -21,7 +21,7 @@
             <!---NAVIGATION BAR-->
             <div class="nav-links">
                 <ul>
-                    <li><a href="">Organise</a></li>
+                    <li><a href="index.html">Organise</a></li>
                     <li><a href="file:///C:/Users/STUDY/Documents/GitHub/studbud/public/plan.html">Plan</a></li>
                     <li><a href="">Study</a></li>
                     <li><a href="">Sign in </a></li>
@@ -30,9 +30,9 @@
         </nav> 
 
 
-<!----Plan----->
+<!----ORGANISE----->
     <div class="text-box">
-        <h1>Organise</h1>
+        <h1>Plan</h1>
         <p>Add and edit tasks that have to be completed. 
         <br> Proceed to Plan your study session for today. </p>
         <div class="filter"> 
@@ -50,10 +50,10 @@
     </div> 
     
 
-<!---PLAN-->
+<!---Study -->
 
-    <div class="plan">
-        <a href="" class="plan-btn"> Plan ></a> 
+    <div class="Study">
+        <a href="" class="plan-btn"> Study ></a> 
     </div> 
 
 <!----Task user input function-->
@@ -61,7 +61,7 @@
     <div id = "taskinput">
         <!----ADDTASKS FUNCTION-->
         <div id ="addtasks">
-        <button id="add-btn" type="button">Add<i class="fa-solid fa-plus"></i></button>
+        <button id="add-btn" type="button"><i class="fa-solid fa-plus"></i></button>
         </div> 
         <!---Container for all the info needed for tasks-->
         <div id ="userinputmenu">
@@ -97,73 +97,30 @@
         </div>
     </div>
 
-    <!--------TIMELINE TODO LIST----------->
-    <div class="timeline-container">
+    <!--------todo kanban boards----------->
+    <div id="kanban-container">
+        <div id="hpTasks">
+            <div class ="circle"></div>
+            <h2>High Priority Tasks</h2> 
+            <div class="line"></div>
+         </div>
+        <div id="todayTasks">
+            <div class ="circle"></div>
+            <h2>Today's Tasks</h2>
+            <div class="line"></div>
 
-    <div class="chart">
-        <div class="chart-row chart-period">
-            <div class="chart-row-item"></div>
-            <span>1</span><span>Today</span><span>3</span>
-            <span>4</span><span>5</span><span>6</span>
-            <span>7</span><span>8</span><span>9</span>
-            <span>10</span>
         </div>
-        <div class="chart-row chart-lines">
-          <span></span><span></span><span></span>
-          <span></span><span></span><span></span>
-          <span></span><span></span><span></span>
-          <span></span>
+        <div id="divideTasks">
+            <div class ="circle"></div>
+            <h2>Divide Tasks</h2>
+            <div class="line"></div>
+
         </div>
-        <div class="chart-row">
-          <div class="chart-row-item"></div>
-          <ul class="chart-row-bars">
-            <li class="chart-li-one-a">Planning</li>
-            <li class="chart-li-one-b">Planning</li>
-            <li class="chart-li-one-c">Planning</li>
-            <li class="chart-li-one-d">Planning</li>
-
-          </ul>
-        </div>   
-        </div>
-  
-      </div>
-  
-  </div>
-</div>
-
-
-<!---DATE BUTTON-->
-<button id ="date-btn"> date </button>
-
-
-        <!--MUSIC PLAYER-->
-
-  <div class="mp">
-    
-    <!--- right part --->
-      <div class="details">
-      <!--- song title---> 
-      <div class="song_detail">
-          <p style= "font-family:arial"id="title">title.mp3</p>
-      </div>
-
-     <!--- navigation of music player  --->
-          <div class="middle">
-            <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
-            <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
-            <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
-        </div>
-
-      <!--- song duration part --->
-       <div class="duration">
-          <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
-       </div>
-     </div>
-    </div>
+    </div> 
     
 
     
-<script src="date.js"></script>
+<script src="main.js"></script>
 </body>
 
 

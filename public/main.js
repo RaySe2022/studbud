@@ -50,8 +50,8 @@ function load_track(index_no){
     track.load();
 
 	timer = setInterval(range_slider ,1000);
-	total.innerHTML = All_song.length;
-	present.innerHTML = index_no + 1;
+	//total.innerHTML = All_song.length;
+	//present.innerHTML = index_no + 1;
 }
 
 load_track(index_no);
@@ -165,18 +165,4 @@ function newtask() {
 }
 
 //-----------------------------DATE-----------------------------?? 
- const btnShow = document.querySelector("#date"); 
- let output = document.querySelector('h1');
 
- btnShow.addEventListener('click',()=> {
-	 let today = new Date();
-	 let month = today.getMonth()+1;
-	 let year =today.getDate();
-	 let date = today.getDate(); 
-
-	 let current_date = `${month}/${date}/${year}`;
-	 output.innerText = current_date;
- })
-
- console.log(date)
- 
