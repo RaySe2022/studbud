@@ -24,15 +24,15 @@ let track = document.createElement('audio');
 let All_song = [
    {
      name: "Acoustic",
-     path: "music/song1.mp3",
+     path: "public/music/song1.mp3",
    },
    {
      name: "Memories",
-     path: "music/song2.mp3",
+     path: "public/music/song2.mp3",
    },
    {
      name: "Better days",
-     path: "music/song3.mp3",
+     path: "public/music/song3.mp3",
    }
 ];
 
