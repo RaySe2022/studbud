@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title> StudBud</title>
     <link rel="stylesheet" href="/index.c74267d1.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
@@ -20,48 +20,48 @@
             <!---NAVIGATION BAR-->
             <div class="nav-links">
                 <ul>
-                    <li><a href="">Organise</a></li>
-                    <li><a href="">Plan</a></li>
-                    <li><a href="">Study</a></li>
-                    <li><a href="">Sign in </a></li>
+                    <li><a href="/index.html">Organise</a></li>
+                    <li><a href="/plan.html">Plan</a></li>
+                    <li><a href="/study.html">Study</a></li>
                 </ul> 
             </div>
         </nav> 
 
 
-<!----Plan----->
-    <div class="text-box">
-        <h1>Organise</h1>
-        <p>Add and edit tasks that have to be completed. 
-        <br> Proceed to Plan your study session for today. </p>
-        <div class="filter"> 
-            <div class="classes">
-    
-                <ul> 
-                <p> Show:</p>
-                <li id="firstsubject">Design Computing  </li>
-                <li id="secondsubject">UX Studio </li> 
-                <li id="thirdsubject">Digital Marketing </li>
-                </ul>
-    
+    <div class="default-container">
+    <!----Plan----->
+        <div class="default-container-left">
+            <div class="text-box">
+                <h1>Organise</h1>
+                <p>Add and edit tasks that have to be completed. 
+                <br> Proceed to Plan your study session for today. </p>
+            </div>
+            <div class="filter"> 
+                <div class="classes">
+                    <ul> 
+                    <p> Show:</p>
+                    <li id="firstsubject">Design Computing </li>
+                    <li id="secondsubject">UX Studio</li> 
+                    <li id="thirdsubject">Digital Marketing</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div> 
-    
-
+     
 <!---PLAN-->
 
-    <div class="plan">
-        <a href="" class="plan-btn"> Plan ></a> 
-    </div> 
+        <div class="plan">
+            <a href="/plan.html" class="plan-btn"> Plan ></a> 
+        </div> 
+
+
+    </div>
 
 <!----Task user input function-->
 
     <div id="taskinput">
         <!----ADDTASKS FUNCTION-->
-        <div id="addtasks">
-        <button id="add-btn" type="button">Add<i class="fa-solid fa-plus"></i></button>
-        </div> 
+        
         <!---Container for all the info needed for tasks-->
         <div id="userinputmenu">
             <i id="close" class="fa-solid fa-xmark"></i>
@@ -94,7 +94,11 @@
             <button onclick="newtask()" id="submit-btn">Complete</button>
             </div>
         </div>
-    </div>
+
+        <div id="addtasks">
+            <button id="add-btn" type="button">Add<i class="fa-solid fa-plus"></i></button>
+        </div>
+</div>
 
     <!--------TIMELINE TODO LIST----------->
     <div class="timeline-container">
@@ -132,7 +136,6 @@
 
 
 <!---DATE BUTTON-->
-<button id="date-btn"> date </button>
 
 
         <!--MUSIC PLAYER-->
@@ -162,7 +165,9 @@
     
 
     
-<script src="/index.a357220e.js"></script>
+    <script src="/index.02422ce6.js" defer=""></script>
+
+
 </section></body>
 
 

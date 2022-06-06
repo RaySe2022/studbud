@@ -1,0 +1,75 @@
+@media(max-width: 700px){
+	.mp{
+		min-height: 100vh;
+		width: 100%;
+		flex-direction: column;
+	}
+	.details{
+		margin-top: 50px;
+		width: 60%;
+	}
+	.details .duration{
+        width: 90%;
+	}
+	.left{
+		margin-top: 5em;
+	    width: 60%;
+	}
+	.left img{
+        min-width: 90%;
+        height: 180px;
+	}
+	.mp #logo{
+		display: none;
+	}
+	.song_detail{
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		width: 80%;
+		height: 70px;
+	}
+	.song_detail #title{
+		font-size: 1.8em;
+	}
+}
+
+@media(max-width: 500px){
+	.mp{
+		min-height: 100vh;
+		width: 100%;
+		flex-direction: column;
+	}
+	.details{
+		margin-top: 50px;
+		width: 80%;
+	}
+	.left{
+		margin-top: 5em;
+	    width: 80%;
+	}
+	.left img{
+        min-width: 90%;
+        height: 180px;
+	}
+	.main #logo{
+		display: none;
+	}
+	.song_detail{
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		width: 80%;
+		height: 70px;
+	}
+	.song_detail #title{
+		font-size: 1.5em;
+	}
+	.song_detail #artist{
+		font-size: 0.8em;
+	}
+	.details .middle button{
+		height: 62px;
+	    width: 62px;
+	}
+}

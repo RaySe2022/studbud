@@ -1,0 +1,110 @@
+/*-----------------------------------------------TIMELINE----------------------------------------------*/
+
+
+.timeline-container{ 
+    position:absolute; 
+    max-height: 65%;
+    min-width: 100%;
+    background-color: #282932;
+    bottom:0px;
+    left:0px;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .chart {
+    display: grid;
+    border-top: 1px solid rgb(82, 81, 81);
+    border-bottom: 1px solid rgb(82, 81, 81);
+    position: relative;
+    overflow: hidden;  
+  }
+  .chart-row {
+  display: grid;      
+  grid-template-columns: 0px 1fr;
+  }
+  
+  .chart-period {
+  color:  #fff;
+  background-color:  #20212a !important;
+  border-bottom: 1px solid rgb(82, 81, 81);
+  grid-template-columns: 50px repeat(10, 1fr);
+  }
+  .chart-lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  grid-template-columns: 50px repeat(10, 1fr);
+  }
+  .chart-period > span {    
+  text-align: center;
+  font-size: 13px;
+  align-self: center;
+  font-weight: bold;
+  padding: 15px 0;    
+  }
+  .chart-lines > span {
+  display: block;
+  border-right: 1px solid rgb(82, 81, 81);
+  }
+  
+  
+  .chart-row-bars {
+  list-style: none;
+  display: grid;
+  padding: 15px 0;
+  margin: 0;
+  grid-template-columns: 50px repeat(10, 1fr);
+  grid-gap: 10px 0;
+  border-bottom: 1px solid  #000;
+  }
+  li {
+  font-weight: 450;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px 15px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  ul .chart-li-one-a {
+  /*---just for now --*/ 
+  /*visibility:hidden;*/
+  grid-column: 1/5; 
+  background-color:#20212a;
+  min-height: 103px;
+  
+  box-shadow: 0px 0px 6px 3px rgba(43,133,255,0.64)
+  }
+  ul .chart-li-one-b {
+    /*---just for now --*/ 
+  /*visibility:hidden;--*/
+    grid-column: 3/8; 
+    background-color:#20212a;
+    min-height: 103px;
+    box-shadow: 0px 0px 6px 3px rgba(158,0,93,0.64)
+    
+    }
+  ul .chart-li-one-c {
+    /*---just for now --*/ 
+  /*visibility:hidden;*/
+    grid-column: 5/9; 
+    background-color:#20212a;
+    min-height: 103px;
+    box-shadow: 0px 0px 6px 3px rgba(0,146,69,0.64)
+    
+  
+    }
+  ul .chart-li-one-d {
+    /*---just for now --*/ 
+  visibility:hidden;
+    grid-column: 2/10; 
+    background-color:#20212a;
+    min-height: 103px;
+    }
+  #date {  
+    color: #009245;
+  }

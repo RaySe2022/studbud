@@ -17,7 +17,7 @@ let track = document.createElement("audio");
 let All_song = [
     {
         name: "Acoustic",
-        path: "music/song1.mp3"
+        path: "public/music/song1.mp3"
     },
     {
         name: "Memories",
@@ -28,6 +28,7 @@ let All_song = [
         path: "music/song3.mp3"
     }
 ];
+console.log(All_song);
 // All functions
 // function load the track
 function load_track(index_no1) {
@@ -118,6 +119,34 @@ function range_slider() {
 function newtask() {
     let taskname = document.querySelector("#taskname");
     taskname.innerHTML = taskname.value;
-} //-----------------------------DATE-----------------------------?? 
+}
+//-----------------------------DATE-----------------------------?? 
+let btnShow = document.getElementById("date-btn");
+console.log(btnShow);
+let output = document.querySelector("h1");
+console.log(output);
+btnShow.addEventListener("click", ()=>{
+    let today = new Date();
+    let month = today.getMonth() + 1;
+    let year = today.getDate();
+    let date = today.getDate();
+    console.log("show");
+    let current_date = `${month}/${date}/${year}`;
+    output.innerText = current_date;
+    console.log(current_date);
+});
+let todayDate = moment();
+console.log(todayDate);
+window.onSpotifyIframeApiReady = (IFrameAPI)=>{
+// 
+};
+window.onSpotifyIframeApiReady = (IFrameAPI)=>{
+    let element = document.getElementById("embed-iframe");
+    let options = {
+        uri: "spotify:episode:7makk4oTQel546B0PZlDM5"
+    };
+    let callback = (EmbedController)=>{};
+    IFrameAPI.createController(element, options, callback);
+};
 
 //# sourceMappingURL=plan.5217163c.js.map

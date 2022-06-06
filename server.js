@@ -1,9 +1,10 @@
 
 const express = require('express');
+const moment = require('moment');
 
 const app = express();
 
-app.use(express.static('dist'));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/dist/index.html')})
