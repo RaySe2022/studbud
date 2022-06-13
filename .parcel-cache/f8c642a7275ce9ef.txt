@@ -1,4 +1,4 @@
-5435
+5433
 95C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@parcel\core\test\fixtures\parcel\index.js132984653872700288 0
 91C:\Users\STUDY\Documents\GitHub\studbud\node_modules\svgo\plugins\addClassesToSVGElement.js132984653866354529 0
 84C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\regions\MX.js132984653879253055 0
@@ -30,7 +30,7 @@
 72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\raw-body\index.d.ts132981312199673558 0
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\ansi-styles\package.json132984653864012404 0
 73C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\lib\utils132985264777419708 1
-44C:\Users\STUDY\Documents\GitHub\studbud\dist132989979749952705 1
+44C:\Users\STUDY\Documents\GitHub\studbud\dist132996033772058867 1
 103C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\features\intersectionobserver.js132984653878085175 0
 81C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@swc\helpers\src\_type_of.js132984653874962342 0
 85C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\lib\moment\to-type.js132985264776999325 0
@@ -74,7 +74,7 @@
 106C:\Users\STUDY\Documents\GitHub\studbud\node_modules\abortcontroller-polyfill\dist\polyfill-patch-fetch.js132984653866304482 0
 65C:\Users\STUDY\Documents\GitHub\studbud\public\scss\timeline.scss132989821419895179 0
 71C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@parcel\plugin\src132984653865103394 1
-57C:\Users\STUDY\Documents\GitHub\studbud\public\index.html132989980662380496 0
+57C:\Users\STUDY\Documents\GitHub\studbud\public\index.html132996033888281974 0
 72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\raw-body\HISTORY.md132981312198502497 0
 60C:\Users\STUDY\Documents\GitHub\studbud\node_modules\globals132984653865593836 1
 81C:\Users\STUDY\Documents\GitHub\studbud\node_modules\merge-descriptors\HISTORY.md132981312198832791 0
@@ -107,7 +107,7 @@
 57C:\Users\STUDY\Documents\GitHub\studbud\node_modules\yaml132984653871829497 1
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\posthtml-render\license132984653862771277 0
 81C:\Users\STUDY\Documents\GitHub\studbud\node_modules\svgo\plugins\inlineStyles.js132984653869157071 0
-54C:\Users\STUDY\Documents\GitHub\studbud\public\main.js132989980553347022 0
+54C:\Users\STUDY\Documents\GitHub\studbud\public\main.js132993058348634928 0
 91C:\Users\STUDY\Documents\GitHub\studbud\node_modules\utility-types\dist\mapped-types.js.map132984653866594746 0
 81C:\Users\STUDY\Documents\GitHub\studbud\node_modules\sass\types\value\string.d.ts132984676954553299 0
 59C:\Users\STUDY\Documents\GitHub\studbud\node_modules\base-x132984653864542893 1
@@ -124,12 +124,12 @@
 102C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\features\keyboardevent-which.js132984653878585628 0
 75C:\Users\STUDY\Documents\GitHub\studbud\node_modules\react-refresh\babel.js132984653863461907 0
 86C:\Users\STUDY\Documents\GitHub\studbud\node_modules\postcss-value-parser\package.json132984653865864082 0
-56C:\Users\STUDY\Documents\GitHub\studbud\public\plan.html132987094782433778 0
+56C:\Users\STUDY\Documents\GitHub\studbud\public\plan.html132990616015597434 0
 78C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@parcel\fs\lib\types.d.ts132984653868186189 0
 70C:\Users\STUDY\Documents\GitHub\studbud\node_modules\statuses\index.js132981312197851906 0
 85C:\Users\STUDY\Documents\GitHub\studbud\node_modules\svgo\plugins\convertTransform.js132984653868666628 0
 88C:\Users\STUDY\Documents\GitHub\studbud\node_modules\terser\lib\compress\tighten-body.js132984653871619308 0
-51C:\Users\STUDY\Documents\GitHub\studbud\public\scss132989960376499702 1
+51C:\Users\STUDY\Documents\GitHub\studbud\public\scss132990621792735688 1
 94C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\features\audiotracks.js132984653870358163 0
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\nth-check\lib\index.d.ts132984653868736690 0
 58C:\Users\STUDY\Documents\GitHub\studbud\node_modules\debug132981312200994757 1
@@ -149,7 +149,7 @@
 67C:\Users\STUDY\Documents\GitHub\studbud\public\scss\navigation.scss132985240767166586 0
 89C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@swc\helpers\lib\_sliced_to_array.js132984653872179815 0
 86C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@swc\helpers\src\_create_class.js132984653874031501 0
-64C:\Users\STUDY\Documents\GitHub\studbud\public\scss\addtask.scss132987080107998180 0
+64C:\Users\STUDY\Documents\GitHub\studbud\public\scss\addtask.scss132996036407172172 0
 78C:\Users\STUDY\Documents\GitHub\studbud\node_modules\sass\types\exception.d.ts132984676954022817 0
 60C:\Users\STUDY\Documents\GitHub\studbud\node_modules\type-is132981312198632609 1
 63C:\Users\STUDY\Documents\GitHub\studbud\public\scss\layout.scss132989976163117492 0
@@ -161,7 +161,7 @@
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ja.js132985264774226849 0
 69C:\Users\STUDY\Documents\GitHub\studbud\node_modules\type-is\index.js132981312198132151 0
 73C:\Users\STUDY\Documents\GitHub\studbud\node_modules\ordered-binary\tests132984653865243519 1
-61C:\Users\STUDY\Documents\GitHub\studbud\public\scss\main.scss132989960524853676 0
+61C:\Users\STUDY\Documents\GitHub\studbud\public\scss\main.scss132990627644728070 0
 84C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\regions\PK.js132984653879746215 0
 99C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js132984653863712131 0
 65C:\Users\STUDY\Documents\GitHub\studbud\node_modules\chalk\source132984653864612952 1
@@ -169,15 +169,9 @@
 85C:\Users\STUDY\Documents\GitHub\studbud\node_modules\htmlnano\docs\versioned_sidebars132984653871058798 1
 94C:\Users\STUDY\Documents\GitHub\studbud\node_modules\csso\lib\restructure\8-restructRuleset.js132984653866194381 0
 65C:\Users\STUDY\Documents\GitHub\studbud\node_modules\browserslist132984653866644793 1
-72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\braces\lib\utils.js132984676953402253 0
-74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\posthtml\node_modules132984653852401864 1
-89C:\Users\STUDY\Documents\GitHub\studbud\node_modules\svgo\plugins\cleanupNumericValues.js132984653867035148 0
-74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\detect-libc\README.md132984653864022414 0
-84C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\regions\IQ.js132984653878115203 0
-86C:\Users\STUDY\Documents\GitHub\studbud\node_modules\htmlnano\docs\docs\040-presets.md132984653871969628 0
-67C:\Users\STUDY\Documents\GitHub\studbud\node_modules\terser\main.js132984653870087916 0
-68C:\Users\STUDY\Documents\GitHub\studbud\public\scss\musicplayer.scss132987053183084078 0
-73C:\Users\STUDY\Documents\GitHub\studbud\node_modules\nullthrows\README.md132984653865423683 0
+80C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ar-kw.js132985264771090429 0
+64C:\Users\STUDY\Documents\GitHub\studbud\public\scss\spotify.scss132990640639876382 0
+61C:\Users\STUDY\Documents\GitHub\studbud\node_modules\has-flag132984653864833151 1
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\source-map\package.json132984653862711219 0
 59C:\Users\STUDY\Documents\GitHub\studbud\node_modules\braces132984676952871771 1
 108C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@parcel\core\test\fixtures\invalid-targets\package.json132984653875662975 0
@@ -492,7 +486,6 @@
 56C:\Users\STUDY\Documents\GitHub\studbud\node_modules\has132981312198222241 1
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\ar.js132985264771440957 0
 67C:\Users\STUDY\Documents\GitHub\studbud\node_modules\yaml\util.d.ts132984653871859523 0
-61C:\Users\STUDY\Documents\GitHub\studbud\node_modules\has-flag132984653864833151 1
 72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\locale\sw.js132985264776759105 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\toidentifier\HISTORY.md132981312198152169 0
 75C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\locale\nl-be.js132985264775558061 0
@@ -1402,6 +1395,14 @@
 67C:\Users\STUDY\Documents\GitHub\studbud\node_modules\terser\LICENSE132984653863491930 0
 74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\css-tree\lib\index.js132984653872169805 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\kn.js132985264774397008 0
+72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\braces\lib\utils.js132984676953402253 0
+74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\posthtml\node_modules132984653852401864 1
+89C:\Users\STUDY\Documents\GitHub\studbud\node_modules\svgo\plugins\cleanupNumericValues.js132984653867035148 0
+74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\detect-libc\README.md132984653864022414 0
+84C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\regions\IQ.js132984653878115203 0
+86C:\Users\STUDY\Documents\GitHub\studbud\node_modules\htmlnano\docs\docs\040-presets.md132984653871969628 0
+67C:\Users\STUDY\Documents\GitHub\studbud\node_modules\terser\main.js132984653870087916 0
+73C:\Users\STUDY\Documents\GitHub\studbud\node_modules\nullthrows\README.md132984653865423683 0
 87C:\Users\STUDY\Documents\GitHub\studbud\node_modules\cosmiconfig\dist\cacheWrapper.d.ts132984653869347243 0
 70C:\Users\STUDY\Documents\GitHub\studbud\node_modules\terser\PATRONS.md132984653872009668 0
 83C:\Users\STUDY\Documents\GitHub\studbud\node_modules\source-map\lib\mapping-list.js132984653866344518 0
@@ -1770,7 +1771,7 @@
 81C:\Users\STUDY\Documents\GitHub\studbud\node_modules\setprototypeof\test\index.js132981312199052996 0
 109C:\Users\STUDY\Documents\GitHub\studbud\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md132984653871839508 0
 102C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\features\css-optional-pseudo.js132984653875622942 0
-54C:\Users\STUDY\Documents\GitHub\studbud\dist\plan.html132989960526909744 0
+54C:\Users\STUDY\Documents\GitHub\studbud\dist\plan.html132996033128133201 0
 105C:\Users\STUDY\Documents\GitHub\studbud\node_modules\caniuse-lite\data\features\font-metrics-overrides.js132984653876914111 0
 78C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@types\parse-json\LICENSE132984653862751255 0
 69C:\Users\STUDY\Documents\GitHub\studbud\node_modules\sass\types\value132984676954523269 1
@@ -2569,7 +2570,6 @@
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\bg.js132985264771571062 0
 101C:\Users\STUDY\Documents\GitHub\studbud\node_modules\@swc\helpers\src\_initializer_define_property.js132984653874361795 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\sl.js132985264776608967 0
-62C:\Users\STUDY\Documents\GitHub\studbud\dist\index.02422ce6.js132989979285021506 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\sq.js132985264776634110 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\sr.js132985264776689041 0
 76C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\src\locale\ss.js132985264776709064 0
@@ -2856,7 +2856,6 @@
 74C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\moment.js132985264775277810 0
 72C:\Users\STUDY\Documents\GitHub\studbud\node_modules\dotenv\CHANGELOG.md132984653863491930 0
 80C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ar-dz.js132985264771050402 0
-80C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ar-kw.js132985264771090429 0
 80C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ar-ma.js132985264771150681 0
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\ar.js132985264771420924 0
 77C:\Users\STUDY\Documents\GitHub\studbud\node_modules\moment\dist\locale\be.js132985264771541032 0
@@ -5426,11 +5425,10 @@
 64C:\Users\STUDY\Documents\GitHub\studbud\node_modules\.bin\semver132984653881842777 0
 68C:\Users\STUDY\Documents\GitHub\studbud\node_modules\.bin\semver.cmd132984653881842777 0
 56C:\Users\STUDY\Documents\GitHub\studbud\images\song2.jpg132981332468227596 0
-66C:\Users\STUDY\Documents\GitHub\studbud\dist\index.02422ce6.js.map132989979285031512 0
-63C:\Users\STUDY\Documents\GitHub\studbud\dist\index.c74267d1.css132989976164285476 0
-67C:\Users\STUDY\Documents\GitHub\studbud\dist\index.c74267d1.css.map132989976164295492 0
-55C:\Users\STUDY\Documents\GitHub\studbud\dist\index.html132989960526979810 0
-62C:\Users\STUDY\Documents\GitHub\studbud\dist\logo.b5bfa736.png132989960526909744 0
-61C:\Users\STUDY\Documents\GitHub\studbud\dist\plan.5217163c.js132989979284732808 0
-65C:\Users\STUDY\Documents\GitHub\studbud\dist\plan.5217163c.js.map132989979284732808 0
-55C:\Users\STUDY\Documents\GitHub\studbud\dist\study.html132989976246024225 0
+62C:\Users\STUDY\Documents\GitHub\studbud\dist\index.5217163c.js132996033128143208 0
+66C:\Users\STUDY\Documents\GitHub\studbud\dist\index.5217163c.js.map132996033128223285 0
+63C:\Users\STUDY\Documents\GitHub\studbud\dist\index.c74267d1.css132996033772048854 0
+67C:\Users\STUDY\Documents\GitHub\studbud\dist\index.c74267d1.css.map132996033772048854 0
+55C:\Users\STUDY\Documents\GitHub\studbud\dist\index.html132996033521098061 0
+62C:\Users\STUDY\Documents\GitHub\studbud\dist\logo.b5bfa736.png132996033128116970 0
+55C:\Users\STUDY\Documents\GitHub\studbud\dist\study.html132996033128116970 0

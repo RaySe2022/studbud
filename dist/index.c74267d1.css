@@ -422,98 +422,6 @@ nav img {
   display: block;
 }
 
-.mp {
-  min-height: 5vh;
-  max-height: 10vh;
-  width: 100%;
-  background: #1a1c22;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-}
-
-.mp button {
-  margin: 0 10px;
-  padding: 10px 12px;
-}
-
-.details input[type="range"] {
-  width: 40%;
-}
-
-.details {
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px;
-  display: flex;
-}
-
-.details .middle {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.details .middle button {
-  height: 30px;
-  width: 30px;
-  cursor: pointer;
-  background: #fff;
-  border: none;
-  border-radius: 50%;
-  outline: none;
-  justify-content: center;
-  align-items: center;
-  transition: all .5s;
-  display: flex;
-}
-
-.song_detail {
-  width: 80%;
-  margin-left: 20px;
-  position: relative;
-}
-
-.song_detail #title {
-  text-transform: capitalize;
-  color: #fff;
-  font-size: 20px;
-}
-
-.details .duration {
-  width: 70%;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  display: flex;
-  position: relative;
-}
-
-.duration input[type="range"] {
-  flex: 1;
-}
-
-#play {
-  background: #fff;
-}
-
-.details button:hover {
-  background: #3e5190;
-}
-
-.details i:before {
-  color: #282932;
-  font-size: 20px;
-}
-
-.show_song_no p:nth-child(2) {
-  margin: 0 5px;
-}
-
 #kanban-container {
   max-height: 70%;
   min-width: 85%;
@@ -803,7 +711,7 @@ ul .chart-li-one-d {
   background-color: #20212a;
   border-radius: 3%;
   flex-direction: column;
-  display: none;
+  display: flex;
   position: absolute;
   top: 35%;
   right: 8%;
@@ -823,7 +731,7 @@ ul .chart-li-one-d {
   font-size: 20px;
 }
 
-#taskname, #date, #duration, #priority {
+#taskname, #duedate, #duration, #priority {
   flex-direction: column;
   padding: 2% 10%;
   display: flex;
@@ -847,6 +755,11 @@ ul .chart-li-one-d {
   cursor: pointer;
   background-color: #3e5190;
   transition-duration: 1s;
+}
+
+#spotify {
+  position: fixed;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */

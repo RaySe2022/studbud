@@ -17,7 +17,7 @@
     justify-content:baseline;
     color: #fff;
     /*hidden for now*/ 
-    display: none;
+    /*display: none;*/
   }
   
   #close { 
@@ -37,7 +37,7 @@
     flex-direction:column;
     padding: 2% 10%;
   }
-  #date { 
+  #duedate { 
     display:flex; 
     flex-direction:column; 
     padding:2% 10%;
